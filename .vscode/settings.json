@@ -1,0 +1,74 @@
+{
+	// --- General rules  ---
+	"files.insertFinalNewline": true,
+	"js/ts.updateImportsOnFileMove.enabled": "always",
+	"workbench.editor.enablePreview": false,
+	"workbench.colorCustomizations": {
+		"tab.activeBorder": "#007acc",
+		"tab.activeBackground": "#1e1e1e",
+		"tab.activeForeground": "#ffffff"
+	},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"typescript": "typescriptreact"
+	},
+
+	// --- Editor customization ---
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"editor.guides.bracketPairs": "active",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.stickyScroll.enabled": true, // Keeps class/function headers at the top
+	"editor.linkedEditing": true, // Native version of Auto Rename Tag
+	"editor.tabSize": 2,
+	"editor.fontSize": 16,
+	"editor.mouseWheelZoom": true,
+	"editor.autoClosingBrackets": "always",
+	"editor.autoClosingComments": "always",
+	"editor.autoClosingDelete": "always",
+	"editor.autoClosingQuotes": "always",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.minimap.enabled": false,
+	"editor.wordWrap": "wordWrapColumn",
+
+	// --- Prettier ---
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// --- Extension Specific Tweaks ---
+	"errorLens.enabledDiagnosticLevels": ["error", "warning"],
+	"tailwindCSS.emmetCompletions": true,
+	"indentRainbow.indicatorStyle": "light",
+	"indentRainbow.lightIndicatorStyleLineWidth": 1,
+	"indentRainbow.colors": [
+		"rgba(255,255,64,0.3)",
+		"rgba(127,255,127,0.3)",
+		"rgba(255,127,255,0.3)",
+		"rgba(79,236,236,0.3)"
+	]
+}

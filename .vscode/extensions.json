@@ -1,0 +1,21 @@
+{
+	"recommendations": [
+		"formulahendry.auto-rename-tag",
+		"EditorConfig.EditorConfig",
+		"usernamehw.errorlens",
+		"dsznajder.es7-react-js-snippets",
+		"dbaeumer.vscode-eslint",
+		"wix.vscode-import-cost",
+		"oderwat.indent-rainbow",
+		"yzhang.markdown-all-in-one",
+		"unifiedjs.vscode-mdx",
+		"esbenp.prettier-vscode",
+		"YoavBls.pretty-ts-errors",
+		"bradlc.vscode-tailwindcss",
+		"mattpocock.ts-error-translator",
+		"pflannery.vscode-versionlens",
+		"vitest.explorer",
+		"vscode-icons-team.vscode-icons",
+		"christian-kohler.path-intellisense"
+	]
+}
